@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue / Return Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+<table class="layout">
+<tr>
+<td class="sidebar">
+    <h2 class="logo">SLMS</h2>
+    <div class="menu">
+        <a href="librarian_dashboard.html">▣ &nbsp; Dashboard</a>
+        <a href="manage_books.html">▣ &nbsp; Manage Books</a>
+        <a href="borrow_requests.html">▣ &nbsp; Borrow Requests</a>
+        <a href="issue_return_book.html" class="active">▣ &nbsp; Issue / Return Book</a>
+    </div>
+    <div class="logout menu"><a href="#">▣ &nbsp; Logout</a></div>
+</td>
+
+<td class="main">
+    <table class="top-row header">
+        <tr>
+            <td><h2>Issue / Return Book</h2></td>
+            <td class="header-right">↔ &nbsp;&nbsp; <span class="avatar">L</span> Librarian &nbsp;⌄</td>
+        </tr>
+    </table>
+
+    <div class="content">
+        <div class="tabs">
+            <a href="#" class="selected">Issue Book</a>
+            <a href="#">Return Book</a>
+        </div>
+
+        <div class="form-box">
+            <label class="form-label">Student</label>
+            <select class="form-input">
+                <option>Select Student</option>
+            </select>
+
+            <label class="form-label">Book</label>
+            <select class="form-input">
+                <option>Select Book</option>
+            </select>
+
+            <table class="top-row">
+                <tr>
+                    <td class="date-column">
+                        <label class="form-label">Issue Date</label>
+                        <input class="form-input" type="text" value="13/08/2026">
+                    </td>
+                    <td class="date-column">
+                        <label class="form-label">Due Date</label>
+                        <input class="form-input" type="text" value="20/08/2026">
+                    </td>
+                </tr>
+            </table>
+
+            <button class="confirm-button" type="button">Confirm Issue</button>
+        </div>
+    </div>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
