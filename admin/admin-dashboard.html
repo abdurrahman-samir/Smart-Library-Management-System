@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../admin.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="admin-dashboard.html">Dashboard</a><br>
+        <a href="admin-user.html">Manage Users</a><br>
+        <a href="admin-categories.html">Manage Categories</a><br>
+        <a href="admin-borrowrecords.html">Borrow Records</a><br>
+        <a class="logout" href="../login.html">Logout</a>
+    </div>
+    <div class="content">
+        <div class="top">
+            <h1>Dashboard</h1>
+            <div class="profile">
+    <a href="admin-profile.html">
+        <div class="circle">A</div>
+        <p>Admin</p>
+    </a>
+</div>
+        </div>
+        <div class="box">
+            <h2>1250</h2>
+            <p>Total Books</p>
+        </div>
+        <div class="box">
+            <h2>320</h2>
+            <p>Total Students</p>
+        </div>
+        <div class="box">
+            <h2>12</h2>
+            <p>Total Librarians</p>
+        </div>
+        <div class="box">
+            <h2>78</h2>
+            <p>Borrowed Books</p>
+        </div>
+        <h2>Recent Activity</h2>
+        <table border="1">
+            <tr>
+                <th>Activity</th>
+                <th>User</th>
+                <th>Book</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Book Issued</td>
+                <td>AR SAMIR</td>
+                <td>The Alchemist</td>
+                <td>11 May 2026</td>
+            </tr>
+            <tr>
+                <td>Book Returned</td>
+                <td>Shamic</td>
+                <td>Atomic Habits</td>
+                <td>12 May 2026</td>
+            </tr>
+            <tr>
+                <td>New Student Added</td>
+                <td><a href="admin-profile.html">Admin</a></td>
+                <td>Student ID: 2456833</td>
+                <td>12 May 2026</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
