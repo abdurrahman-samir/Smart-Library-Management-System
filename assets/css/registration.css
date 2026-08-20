@@ -1,0 +1,37 @@
+body{
+    font-family:Arial;
+    background-color:white;
+    color:black;
+}
+h1{
+    margin-bottom:5px;
+}
+p{
+    margin-top:5px;
+}
+form{
+    width:400px;
+    margin:auto;
+}
+form div{
+    text-align:left;
+}
+input{
+    width:100%;
+    padding:8px;
+}
+select{
+    width:100%;
+    padding:8px;
+}
+button{
+    width:100%;
+    padding:10px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+a{
+    color:blue;
+    text-decoration:none;
+}

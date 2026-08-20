@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Categories</title>
+    <link rel="stylesheet" href="../../assets/css/admin.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="admin-dashboard.html">Dashboard</a><br>
+        <a href="admin-user.html">Manage Users</a><br>
+        <a href="admin-categories.html">Manage Categories</a><br>
+        <a href="admin-borrowrecords.html">Borrow Records</a><br>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+    <div class="content">
+        <div class="top">
+            <h1>Manage Categories</h1>
+            <div class="profile">
+                <a href="admin-profile.html">
+                    <div class="circle">SA</div>
+                    <span>Admin</span>
+                </a>
+            </div>
+        </div>
+        <h2>Add Category</h2>
+        <form>
+            <label for="category">Category Name</label><br>
+            <input type="text"id="category"name="category"required>
+            <button type="submit">Add Category</button>
+        </form>
+        <br><br>
+        <h2>Category List</h2>
+        <table border="1">
+            <tr>
+                <th>Category ID</th>
+                <th>Category Name</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Science</td>
+                <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Programming</td>
+                <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Literature</td>
+                <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

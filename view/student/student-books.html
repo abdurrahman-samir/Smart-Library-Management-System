@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browse Books</title>
+    <link rel="stylesheet" href="../../assets/css/student.css">
+</head>
+<body>
+    <div class="menu">
+<h2>SLMS</h2>
+        <a href="student-dashboard.html" class="active">
+            <span class="menu-icon"></span>Dashboard
+        </a><br>
+        <a href="student-books.html">
+            <span class="menu-icon"></span>Browse Books
+        </a><br>
+        <a href="student-book-details.html">
+            <span class="menu-icon"></span>Book Details
+        </a><br>
+        <a href="student-borrowing-history.html">
+            <span class="menu-icon"></span>My Requests / History
+        </a><br>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+    <div class="content">
+        <div class="top">
+            <h1>Browse Books</h1>
+        </div>
+        <div class="search">
+            <span class="search-box">⌕</span>
+            <input type="text" placeholder="Search by title, author or keyword...">
+            <select>
+                <option>All Categories</option>
+                <option>Programming</option>
+                <option>Self Help</option>
+                <option>Fiction</option>
+                <option>Finance</option>
+                <option>Psychology</option>
+                <option>History</option>
+            </select>
+        </div>
+        <table border="1">
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Category</th>
+            </tr>
+            <tr>
+                <td>B001</td>
+                <td>Clean Code</td>
+                <td>Robert C. Martin</td>
+                <td>Programming</td>
+            </tr>
+            <tr>
+                <td>B002</td>
+                <td>Atomic Habits</td>
+                <td>James Clear</td>
+                <td>Self Help</td>
+            </tr>
+            <tr>
+                <td>B003</td>
+                <td>The Alchemist</td>
+                <td>Paulo Coelho</td>
+                <td>Fiction</td>
+            </tr>
+            <tr>
+                <td>B004</td>
+                <td>Rich Dad Poor Dad</td>
+                <td>Robert Kiyosaki</td>
+                <td>Finance</td>
+            </tr>
+            <tr>
+                <td>B005</td>
+                <td>Thinking, Fast and Slow</td>
+                <td>Daniel Kahneman</td>
+                <td>Psychology</td>
+            </tr>
+            <tr>
+                <td>B006</td>
+                <td>Sapiens</td>
+                <td>Yuval Noah Harari</td>
+                <td>History</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

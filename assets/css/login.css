@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:white;
+}
+.login-page{
+    text-align:center;
+    margin-top:80px;
+}
+.heading h1{
+    color:green;
+}
+.login-box{
+    width:350px;
+    margin:30px auto;
+    padding:20px;
+    border:1px solid gray;
+}
+.form-group{
+    text-align:left;
+    margin-bottom:20px;
+}
+label{
+    display:block;
+    margin-bottom:5px;
+}
+input{
+    width:100%;
+    padding:8px;
+}
+.forgot{
+    text-align:right;
+    margin-bottom:20px;
+}
+a{
+    color:blue;
+    text-decoration:none;
+}
+button{
+    width:100%;
+    padding:10px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+.register{
+    margin-top:20px;
+}
+.roles{
+    margin-top:20px;
+    color:gray;
+}

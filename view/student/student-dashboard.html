@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="../../assets/css/student.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="dashboard.html" class="active">
+            <span class="menu-icon"></span>Dashboard
+        </a><br>
+        <a href="books.html">
+            <span class="menu-icon"></span>Browse Books
+        </a><br>
+        <a href="book-details.html">
+            <span class="menu-icon"></span>Book Details
+        </a><br>
+        <a href="borrowing-history.html">
+            <span class="menu-icon"></span>My Requests / History
+        </a><br>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+    <div class="content">
+        <div class="top">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="box">
+            <div class="card-icon green-icon"></div>
+            <h2>320</h2>
+            <p>Available Books</p>
+        </div>
+        <div class="box">
+            <div class="card-icon orange-icon"></div>
+            <h2>12</h2>
+            <p>Pending Requests</p>
+        </div>
+        <div class="box">
+            <div class="card-icon blue-icon"></div>
+            <h2>5</h2>
+            <p>Currently Borrowed</p>
+        </div>
+        <h2>Current Borrowed Books</h2>
+        <table border="1">
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Due Date</th>
+            </tr>
+            <tr>
+                <td>B002</td>
+                <td>Atomic Habits</td>
+                <td>James Clear</td>
+                <td>20/08/2026</td>
+            </tr>
+            <tr>
+                <td>B004</td>
+                <td>Rich Dad Poor Dad</td>
+                <td>Robert Kiyosaki</td>
+                <td>24/08/2026</td>
+            </tr>
+            <tr>
+                <td>B001</td>
+                <td>Clean Code</td>
+                <td>Robert C. Martin</td>
+                <td>13/08/2026</td>
+            </tr>
+            <tr>
+                <td>B003</td>
+                <td>The Alchemist</td>
+                <td>Paulo Coelho</td>
+                <td>18/08/2026</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

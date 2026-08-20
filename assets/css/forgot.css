@@ -1,0 +1,51 @@
+body{
+    font-family:Arial;
+    background-color:white;
+}
+.forgot-page{
+    text-align:center;
+    margin-top:60px;
+}
+.heading h1{
+    color:green;
+}
+.heading p{
+    color:gray;
+}
+.forgot-box{
+    width:350px;
+    margin:40px auto;
+    padding:20px;
+    border:1px solid gray;
+}
+.form-group{
+    text-align:left;
+    margin-top:20px;
+}
+label{
+    display:block;
+    margin-bottom:5px;
+}
+input{
+    width:100%;
+    padding:8px;
+}
+select{
+    width:100%;
+    padding:8px;
+}
+button{
+    width:100%;
+    padding:10px;
+    margin-top:20px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+.back{
+    margin-top:15px;
+}
+.back a{
+    color:green;
+    text-decoration:none;
+}

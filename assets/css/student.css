@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:white;
+    color:black;
+}
+/*left menu*/
+.menu{
+    width:200px;
+    height:100vh;
+    background-color:green;
+    color:white;
+    float:left;
+    padding:20px;
+}
+.menu h2{
+    text-align:center;
+}
+.menu a{
+    color:white;
+    text-decoration:none;
+    line-height:40px;
+    display:block;
+}
+.menu a.active{
+    background-color:darkgreen;
+}
+.logout{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+}
+.menu-icon{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin-right:8px;
+    background-color:white;
+    border-radius:50%;
+}
+/*main content*/
+.content{
+    margin-left:250px;
+    padding:20px;
+}
+/*top*/
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+/*dashboard box*/
+.box{
+    width:150px;
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+    display:inline-block;
+    text-align:center;
+}
+.box h2{
+    color:green;
+}
+.card-icon{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin:0 auto 10px;
+}
+.green-icon{
+    background-color:green;
+}
+.orange-icon{
+    background-color:orange;
+}
+.blue-icon{
+    background-color:blue;
+}
+/*table*/
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background-color:lightgray;
+}
+th, td{
+    padding:8px;
+    text-align:left;
+    border:1px solid gray;
+}
+/*input*/
+input{
+    padding:7px;
+}
+/*select*/
+select{
+    padding:7px;
+}
+/*button*/
+button{
+    padding:7px 12px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+/*search*/
+.search{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.search-box{
+    margin-right:10px;
+}
+/*book details page*/
+.book-details-content{
+    display:flex;
+    gap:20px;
+}
+.book-cover img{
+    width:150px;
+    border:1px solid gray;
+}
+.book-information{
+    border:1px solid gray;
+    padding:20px;
+}
+.book-row{
+    margin-bottom:10px;
+}
+.status{
+    color:green;
+}
+.description{
+    margin-top:20px;
+}

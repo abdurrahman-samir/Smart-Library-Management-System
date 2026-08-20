@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue / Return Book</title>
+    <link rel="stylesheet" href="../../assets/css/librarian.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="librarian_dashboard.html">Dashboard</a>
+        <a href="librarian_manage_books.html">Manage Books</a>
+        <a href="librarian_borrow_requests.html">Borrow Requests</a>
+<a href="librarian_issue_return_book.html">Issue / Return Book</a>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+    <div class="content">
+        <div class="top">
+            <h1>Issue / Return Book</h1>
+            <div class="profile">
+                <span class="circle">L</span>
+                <span>Librarian</span>
+            </div>
+        </div>
+        <div class="tabs">
+            <a href="#" class="selected">Issue Book</a>
+            <a href="#">Return Book</a>
+        </div>
+        <div class="form-box">
+            <label>Student</label>
+            <select>
+                <option>Select Student</option>
+            </select>
+            <label>Book</label>
+            <select>
+                <option>Select Book</option>
+            </select>
+            <div class="date-row">
+                <div class="date-column">
+                    <label>Issue Date</label>
+                    <input type="text" value="13/08/2026">
+                </div>
+                <div class="date-column">
+                    <label>Due Date</label>
+                    <input type="text" value="20/08/2026">
+                </div>
+            </div>
+            <button type="button">Confirm Issue</button>
+        </div>
+    </div>
+</body>
+</html>

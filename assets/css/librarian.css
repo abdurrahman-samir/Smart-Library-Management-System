@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:white;
+    color:black;
+}
+/*left menu*/
+.menu{
+    width:200px;
+    height:100vh;
+    background-color:green;
+    color:white;
+    float:left;
+    padding:20px;
+}
+.menu h2{
+    text-align:center;
+}
+.menu a{
+    color:white;
+    text-decoration:none;
+    line-height:40px;
+}
+.logout{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+}
+/*main content*/
+.content{
+    margin-left:250px;
+    padding:20px;
+}
+/*top*/
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+/*librarian profile*/
+.profile{
+    display:flex;
+    align-items:center;
+    color:black;
+}
+.circle{
+    width:40px;
+    height:40px;
+    background-color:green;
+    color:white;
+    border-radius:50%;
+    text-align:center;
+    line-height:40px;
+    margin-right:10px;
+}
+/*dashboard box*/
+.box{
+    width:150px;
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+    display:inline-block;
+    text-align:center;
+}
+.box h2{
+    color:green;
+}
+/*table*/
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background-color:lightgray;
+}
+th, td{
+    padding:8px;
+    text-align:left;
+    border:1px solid gray;
+}
+/*input*/
+input{
+    padding:7px;
+}
+/*select*/
+select{
+    padding:7px;
+}
+/*button*/
+button{
+    padding:7px 12px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+/*search*/
+.search{
+    margin-top:20px;
+}
+.search input{
+    width:300px;
+}
+.search button{
+    float:right;
+}
+/*section*/
+.section{
+    margin-top:20px;
+}
+.section-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.section-title a{
+    color:green;
+    text-decoration:none;
+}
+/*tabs*/
+.tabs{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.tabs a{
+    padding:8px 12px;
+    color:green;
+    text-decoration:none;
+    border:1px solid gray;
+}
+.tabs .selected{
+    background-color:green;
+    color:white;
+}
+/*issue return form*/
+.form-box{
+    width:550px;
+    border:1px solid gray;
+    padding:20px;
+}
+.form-box label{
+    display:block;
+    margin-top:10px;
+}
+.form-box select{
+    width:250px;
+}
+.form-box input{
+    width:230px;
+}
+.date-row{
+    display:flex;
+    gap:20px;
+}
+.date-column{
+    width:250px;
+}
+.form-box button{
+    margin-top:20px;
+}

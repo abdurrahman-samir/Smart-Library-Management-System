@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Librarian Dashboard</title>
+    <link rel="stylesheet" href="../../assets/css/librarian.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="librarian_dashboard.html">Dashboard</a><br>
+        <a href="librarian_manage_books.html">Manage Books</a><br>
+        <a href="librarian_borrow_requests.html">Borrow Requests</a><br>
+        <a href="librarian_issue_return_book.html">Issue / Return Book</a><br>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+
+    <div class="content">
+        <div class="top">
+            <h1>Librarian Dashboard</h1>
+
+            <div class="profile">
+                <div class="circle">
+                    L
+                </div>
+                Librarian
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Total Books</p>
+            <h2>320</h2>
+        </div>
+
+        <div class="box">
+            <p>Pending Requests</p>
+            <h2>12</h2>
+        </div>
+
+        <div class="box">
+            <p>Issued Books</p>
+            <h2>45</h2>
+        </div>
+
+        <div class="box">
+            <p>Returned Books</p>
+            <h2>78</h2>
+        </div>
+
+        <br><br>
+
+        <div class="recent">
+            <h2>Recent Borrow Requests</h2>
+
+            <a href="librarian_borrow_requests.html">
+                View All
+            </a>
+            <br><br>
+            <table>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Book Name</th>
+                    <th>Request Date</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Rafi Hasan</td>
+                    <td>Clean Code</td>
+                    <td>12 Aug 2026</td>
+                    <td>
+                        <span class="status">
+                            Pending
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sadia Islam</td>
+                    <td>Atomic Habits</td>
+                    <td>12 Aug 2026</td>
+                    <td>
+                        <span class="status">
+                            Pending
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fahim Ahmed</td>
+                    <td>The Alchemist</td>
+                    <td>11 Aug 2026</td>
+                    <td>
+                        <span class="status">
+                            Pending
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nusrat Jahan</td>
+                    <td>Rich Dad Poor Dad</td>
+                    <td>11 Aug 2026</td>
+                    <td>
+                        <span class="status">
+                            Pending
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

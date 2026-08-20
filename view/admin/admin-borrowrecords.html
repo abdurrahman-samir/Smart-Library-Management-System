@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Borrow Records</title>
+    <link rel="stylesheet" href="../../assets/css/admin.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="admin-dashboard.html">Dashboard</a><br>
+        <a href="admin-user.html">Manage Users</a><br>
+        <a href="admin-categories.html">Manage Categories</a><br>
+        <a href="admin-borrowrecords.html">Borrow Records</a><br>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+    <div class="content">
+        <div class="top">
+            <h1>Borrow Records</h1>
+
+            <div class="profile">
+                <a href="admin-profile.html">
+                    <div class="circle">SA</div>
+                    <p>Admin</p>
+                </a>
+            </div>
+        </div>
+        <div class="search">
+            <label for="status">Status</label>
+            <select id="status" name="status">
+                <option>All</option>
+                <option>Pending</option>
+                <option>Borrowed</option>
+                <option>Returned</option>
+            </select>
+            <button>Filter</button>
+        </div>
+        <br>
+        <table border="1">
+            <tr>
+                <th>Student</th>
+                <th>Book</th>
+                <th>Request Date</th>
+                <th>Issue Date</th>
+                <th>Due Date</th>
+                <th>Return Date</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Ahana</td>
+                <td>Atomic Habits</td>
+                <td>05 May 2026</td>
+                <td>06 May 2026</td>
+                <td>20 May 2026</td>
+                <td>-</td>
+                <td>Borrowed</td>
+            </tr>
+
+            <tr>
+                <td>Samir</td>
+                <td>The Alchemist</td>
+                <td>07 May 2026</td>
+                <td>08 May 2026</td>
+                <td>22 May 2026</td>
+                <td>18 May 2026</td>
+                <td>Returned</td>
+            </tr>
+
+            <tr>
+                <td>Biswas</td>
+                <td>Clean Code</td>
+                <td>10 May 2026</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Pending</td>
+            </tr>
+        </table>
+        <br>
+        <h2>System Summary Report</h2>
+        <div class="box">
+            <h2>1250</h2>
+            <p>Total Books</p>
+        </div>
+        <div class="box">
+            <h2>320</h2>
+            <p>Total Students</p>
+        </div>
+        <div class="box">
+            <h2>78</h2>
+            <p>Borrowed Books</p>
+        </div>
+        <div class="box">
+            <h2>245</h2>
+            <p>Returned Books</p>
+        </div>
+    </div>
+</body>
+</html>

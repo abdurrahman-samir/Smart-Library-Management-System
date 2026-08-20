@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Profile</title>
+    <link rel="stylesheet" href="../../assets/css/admin.css">
+</head>
+<body>
+    <div class="menu">
+        <h2>SLMS</h2>
+        <a href="admin-dashboard.html">Dashboard</a><br>
+        <a href="admin-user.html">Manage Users</a><br>
+        <a href="admin-categories.html">Manage Categories</a><br>
+        <a href="admin-borrowrecords.html">Borrow Records</a><br>
+        <a class="logout" href="../auth/login.html">Logout</a>
+    </div>
+    <div class="content">
+        <h1>Admin Profile</h1>
+        <div class="profile-box">
+            <div class="circle">
+                SA
+            </div>
+            <br>
+            <label for="fullname">Full Name</label>
+            <br>
+            <input type="text"id="fullname"name="fullname"value="System Admin"
+            >
+            <br><br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email"id="email"name="email"value="admin@gmail.com"
+            >
+            <br><br>
+            <label for="role">Role</label>
+            <br>
+            <input type="text"id="role"name="role"value="Admin"readonly
+            >
+            <br><br>
+            <button type="button">
+                Update Profile
+            </button>
+        </div>
+    </div>
+</body>
+</html>
